@@ -1,0 +1,17 @@
+footer {
+    background-color: #464646;
+    padding: 3%;
+    margin-top : 2%;
+}
+
+.nav-link-f {
+    display: block;
+    padding: .5rem 1rem;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+    color: white;
+    font-family: 'Montserrat', sans-serif !important;
+}
+.nav-link-f:hover {
+    color: #A3CEF1;
+}

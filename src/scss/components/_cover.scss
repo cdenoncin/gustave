@@ -1,0 +1,47 @@
+/*COMPONENTS / COVER*/
+
+.cover {
+    height: 400px;
+    width: 100%;
+    background-attachment : fixed;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.6), 
+        rgba(0, 0, 0, 0.6)
+      ), url('../img/1.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+}
+
+.contenu {
+    height : 1800px;
+    width: 100%;
+    background-color: #F2F2F2;
+    z-index: 4;
+}
+
+.cover__h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.cover__h2 {
+    color: white;
+    text-align: center;
+    font-family: 'Esteban', serif;
+    font-size: 30px;
+}
+
+.cover__text {
+    vertical-align: middle;
+    display: table-cell;
+    position : absolute;
+    left: 50%;
+    top: 28%;
+    transform: translateX(-50%);
+    text-align: center;
+}

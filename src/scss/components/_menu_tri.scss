@@ -1,0 +1,32 @@
+.contenu__menu {
+    display: flex;
+}
+
+.contenu__menu_p {
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 500;
+    margin-bottom: 11%;
+    color: #A3CEF1;
+    cursor: pointer;
+
+    &:last-of-type {
+        &:after {
+            content: none;
+        }
+    }
+
+    &:after {
+        content: "|";
+        color: #A3CEF1;
+        padding-left: 10px;
+    }
+}
+
+.active {
+    color: #26607A !important;
+}
+
+.sortedDown {
+    display: none !important;
+}
